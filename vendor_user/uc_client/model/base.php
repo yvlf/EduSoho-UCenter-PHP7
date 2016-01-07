@@ -69,7 +69,7 @@ class base {
 	}
 
 	function init_db() {
-		require_once UC_ROOT.'lib/db.class.php';
+		require_once UC_ROOT.'lib/dbi.class.php';
 		$this->db = new ucclient_db();
 		$this->db->connect(UC_DBHOST, UC_DBUSER, UC_DBPW, '', UC_DBCHARSET, UC_DBCONNECT, UC_DBTABLEPRE);
 	}
