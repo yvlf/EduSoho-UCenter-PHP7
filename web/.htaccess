@@ -53,4 +53,4 @@ AddType text/x-component .htc
     </IfModule>
 </IfModule>
 
-php_flag magic_quotes_gpc Off
+# php_flag magic_quotes_gpc Off
